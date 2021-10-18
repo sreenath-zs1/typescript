@@ -41,3 +41,12 @@ console.log("Number 1 is greater than number 2: " +res)
 res = num1<num2
 console.log("Number 1 is less than number 2: " +res)
 
+//BitWise Operators(and &,or |,Xor ^,Not ~,leftshit <<,rightshift >>,rightshiftwith zero>>>)
+var a:number = 2; 
+var b:number = 3;
+var reesult;
+result = (a & b);
+console.log("(a & b) => ", result)
+result = (a | b);
+console.log("(a | b) => ", result)
+
